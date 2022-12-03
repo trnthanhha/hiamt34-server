@@ -18,5 +18,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log("run server success!");
+  console.log("run server success!!");
 });
