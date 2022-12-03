@@ -32,8 +32,6 @@ jobs:
           script: |
             cd ~/workspace/hiamt34-server
             ${{ secrets.GHP }}
-            export NVM_DIR=~/.nvm
-            source ~/.nvm/nvm.sh
             npm install
             pm2 restart hiamt34-server
 
